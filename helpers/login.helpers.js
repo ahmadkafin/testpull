@@ -12,10 +12,10 @@ const post = async (url, payload) => {
 }
 
 exports.token = async () => {
-    let token = await post('http://10.129.10.138/digio2021/digiohandlers/TokenAuth.ashx', {
-        username: 'ahmad.kafin-e',
-        password: 'Sup3rm4n1702!@!@',
-        dir: 'pgn',
+    let token = await post('super-secret-url', {
+        username: 'super-secret-username',
+        password: 'super-secret-password',
+        dir: 'super-secret-dir',
     });
     return token.data.accessToken;
 }
