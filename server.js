@@ -7,9 +7,10 @@ const whatsapp = require('./logic/whatsapp.logic');
 
 
 async function main() {
-    await whatsapp.chat();
+    // await whatsapp.chat();
     // await _input.inputToTableServiceReport();
     // await _input.inputToTableCctvReport();
+    console.log("nodemon start")
 }
 
 main();
