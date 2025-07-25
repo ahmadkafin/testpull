@@ -11,6 +11,7 @@ async function main() {
     // await _input.inputToTableServiceReport();
     // await _input.inputToTableCctvReport();
     console.log("nodemon start")
+    console.log("from git")
 }
 
 main();
